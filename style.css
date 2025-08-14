@@ -81,3 +81,9 @@ Motivated to Optimize Efficiency, Quality and Safety by implementing Lean Manage
 .contact a:hover {
   text-decoration: underline;
 }
+/* Add this to your style.css */
+.profile-photo {
+  border-radius: 50%;
+  display: block;
+  margin: 0 auto 20px auto;
+}
