@@ -68,6 +68,7 @@ section {
 }
 
 .skills-list {
+  list-style: none;
   display: flex;
   flex-wrap: wrap;
   gap: 1rem;
@@ -85,4 +86,17 @@ footer {
   color: white;
   text-align: center;
   padding: 1rem;
+}
+
+.profile-photo {
+  width: 150px;
+  height: 150px;
+  object-fit: cover;
+  border-radius: 50%;
+  border: 4px solid white;
+  margin-bottom: 1rem;
+}
+
+section h2 {
+  margin-bottom: 1rem;
 }

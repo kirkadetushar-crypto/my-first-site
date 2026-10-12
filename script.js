@@ -1,8 +1,12 @@
-// Smooth scroll for navigation links
-document.querySelectorAll('nav a').forEach(link => {
+// Smooth scroll for in-page navigation links
+document.querySelectorAll('a[href^="#"]').forEach(link => {
   link.addEventListener('click', function(e) {
-    e.preventDefault();
     const target = document.querySelector(this.getAttribute('href'));
+    if (!target) return;
+    e.preventDefault();
     target.scrollIntoView({ behavior: 'smooth' });
   });
 });
+
+// Keep the footer year current
+document.getElementById('year').textContent = new Date().getFullYear();

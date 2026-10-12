@@ -1,10 +1,66 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-  <title>Test Page</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Tushar Kirkade</title>
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <h1>Hello Tushar!</h1>
-  <p>This is a test to confirm your site is working.</p>
+  <header>
+    <img class="profile-photo" src="Image_Kirkade_Tushar.jpg" alt="Photo of Tushar Kirkade">
+    <h1>Tushar Kirkade</h1>
+    <p>Welcome to my personal website</p>
+    <a href="#contact" class="btn">Get in touch</a>
+  </header>
+
+  <nav>
+    <ul>
+      <li><a href="#about">About</a></li>
+      <li><a href="#skills">Skills</a></li>
+      <li><a href="#projects">Projects</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+  </nav>
+
+  <main>
+    <section id="about">
+      <h2>About Me</h2>
+      <div class="card">
+        <p>Hi, I'm Tushar! This is my first website. I enjoy learning new things and building projects on the web.</p>
+      </div>
+    </section>
+
+    <section id="skills">
+      <h2>Skills</h2>
+      <ul class="skills-list">
+        <li>HTML</li>
+        <li>CSS</li>
+        <li>JavaScript</li>
+        <li>Git &amp; GitHub</li>
+      </ul>
+    </section>
+
+    <section id="projects">
+      <h2>Projects</h2>
+      <div class="card">
+        <h3>My First Site</h3>
+        <p>This personal website, built with plain HTML, CSS and JavaScript.</p>
+      </div>
+    </section>
+
+    <section id="contact">
+      <h2>Contact</h2>
+      <div class="card">
+        <p>Email: <a href="mailto:kirkadetushar@gmail.com">kirkadetushar@gmail.com</a></p>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; <span id="year"></span> Tushar Kirkade</p>
+  </footer>
+
+  <script src="script.js"></script>
 </body>
 </html>
